@@ -4,8 +4,8 @@ public class UC2DailyEmployeeWage {
     public static void main(String[] args) {
         int isFullTime = 1;
         int wagePerHour = 20;
-        int employeeHours;
-        int employeeWage;
+        int employeeHours = 0;
+        int employeeWage = 0;
 
         double employeePresence = Math.floor(Math.random() * 10) % 2;
         if (employeePresence == isFullTime) {
